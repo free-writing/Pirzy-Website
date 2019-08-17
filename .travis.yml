@@ -1,0 +1,16 @@
+language: generic
+
+before_install:
+  - wget -q https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.55.6_Linux-64bit.deb
+
+install:
+  - hugo env
+  - hugo
+
+  - sudo wget -qO hugo_0.55.6_Linux-64bit.deb https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
+    - sudo dpkg -i hugo_0.55.6_Linux-64bit.deb
+
+branches:
+  only:
+    - master
