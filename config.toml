@@ -1,0 +1,77 @@
+baseURL = "http://pierrehenrys.com/"
+languageCode = "fr"
+title = "Pierre-Henry"
+theme = "manis"
+
+# Copyright notice. Note: You can use HTML tag here
+copyright = "&copy; 2019 Pierre-Henry Soria"
+pluralizeListTitles = false
+
+# Minimum number of posts before paginate navigation show up
+paginate = 10
+
+# Your disqus shortname
+disqusShortname = ""
+
+# Edit this if you want to translate your blog
+defaultContentLanguage = "en"
+
+# Code Highlighting (Chroma)
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[menu]
+	[[menu.main]]
+		name = "Post"
+		url = "/post/"
+
+	[[menu.main]]
+		name = "About"
+		url = "/about"
+
+[taxonomies]
+	tag = "tags"
+
+[params]
+    author = "Pierre-Henry Soria"
+	# If false, use minified CSS (ui.min.css)
+	debugCSS = false
+	# Custom CSS
+	customCSS = []
+
+	# List of sections that support disqus comments
+	disqusSections = [ "blog" ]
+	# Site meta description
+	description = ""
+	# Site's Tagline (Subtitle or Keyword)
+	tagline = "Devenir meilleur, chaque jour"
+	# If true give attribution to this theme
+	themeAttrib = false
+
+	# Configure which sections for Latest Posts
+	mainSections = ["blog", "post"]
+
+	# Color of your website's accent
+	colorTheme = "#ff6565"
+	# Maximum number of item in Latest Posts or Works
+	latestCount = 3
+	# Path to site's favicon image
+	faviconImg = ""
+	# Date format in item list
+	dateFmt = "02 Jan 2006"
+
+	# Code Highlighting (HighlightJS)
+	highlightJs = false
+	highlightJsLanguages = [ "go" ]
+	highlightJsStyle = "ocean"
+
+	# Social Links
+	email = "hi@ph7.me"
+	github = "https://github.com/pH-7/"
+	twitter = "https://twitter.com/phenrysay"
+
+
+[languages.in]
+	lang = "fr"
+	languageName = "Français"
+	weight = 1
