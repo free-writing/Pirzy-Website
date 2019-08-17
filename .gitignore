@@ -1,0 +1,17 @@
+public
+resources
+node_modules
+
+# Linux
+*~
+*.swp
+.directory
+
+# Windows
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# OSX
+.DS_Store*
+._*
