@@ -1,4 +1,4 @@
-baseURL = "http://savoirunique.com/"
+baseURL = "http://pirzy.com/"
 languageCode = "fr"
 defaultContentLanguage = "fr"
 title = "Devenir Simplement Meilleur"
@@ -43,9 +43,9 @@ pygmentsUseClasses = true
 	# List of sections that support disqus comments
 	disqusSections = [ "blog" ]
 	# Site meta description
-	description = ""
+	description = "Pirzy.com - Devenir Simplement Meilleur"
 	# Site's Tagline (Subtitle or Keyword)
-	tagline = "Devenir meilleur, chaque jour"
+	tagline = "Devenir Meilleur, Savoir Plus, chaque jour 🥇"
 	# If true give attribution to this theme
 	themeAttrib = false
 
