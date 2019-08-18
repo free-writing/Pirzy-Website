@@ -1,6 +1,7 @@
 public
 resources
 node_modules
+.idea
 
 # Linux
 *~
