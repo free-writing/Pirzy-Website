@@ -1,20 +1,16 @@
-baseURL = "http://pierrehenrys.com/"
+baseURL = "http://savoirunique.com/"
 languageCode = "fr"
-title = "Pierre-Henry"
+defaultContentLanguage = "fr"
+title = "Devenir Simplement Meilleur"
 theme = "manis"
 
 # Copyright notice. Note: You can use HTML tag here
-copyright = "&copy; 2019 Pierre-Henry Soria"
+# To display a copyright symbol, type `&copy;`. For current year, type `{year}`
+copyright = "&copy; <a href='https://pierrehenry.be'>Pierre-Henry Soria</a>, {year}"
 pluralizeListTitles = false
 
 # Minimum number of posts before paginate navigation show up
-paginate = 10
-
-# Your disqus shortname
-disqusShortname = ""
-
-# Edit this if you want to translate your blog
-defaultContentLanguage = "en"
+paginate = 16
 
 # Code Highlighting (Chroma)
 pygmentsCodeFences = true
@@ -31,6 +27,11 @@ pygmentsUseClasses = true
 
 [taxonomies]
 	tag = "tags"
+	category = "categories"
+	author = "authors"
+
+[permalinks]
+    posts = "/:year/:slug"
 
 [params]
     author = "Pierre-Henry Soria"
@@ -66,7 +67,7 @@ pygmentsUseClasses = true
 	highlightJsStyle = "ocean"
 
 	# Social Links
-	email = "hi@ph7.me"
+	email = "pierre@soria.email"
 	github = "https://github.com/pH-7/"
 	twitter = "https://twitter.com/phenrysay"
 
