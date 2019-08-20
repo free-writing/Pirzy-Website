@@ -3,6 +3,8 @@ resources
 node_modules
 .idea
 
+
+## Files specific to OSs
 # Linux
 *~
 *.swp
